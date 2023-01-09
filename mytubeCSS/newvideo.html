@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Upload</title>
+</head>
+<body>
+    <!--nav bar-->
+    <nav>
+        <a href="/">Home</a>
+        <a href="/pages/collection1.html">Collection1</a>
+        <a href="/pages/collection2.html">Collection2</a>
+        <a href="/pages/collection3.html">Collection3</a>
+        <a href="/newvideo.html">New Video</a>
+    </nav>
+    <!--/nav bar, br *2-->
+    <!--header-->
+    <header>
+        <h1>Add New Video</h1>
+    </header>
+    <!--/header, br *2-->   
+    <br>
+    <br>
+    <!--subheader, label, br*1-->
+    <label for="title">Video Title</label>
+    <br>
+    <!--input type "text", br*2-->
+    <input id="title" name="Title" type="text" placeholder="Input Value">
+    <br>
+    <br>
+    <!--subheader, label, br*1-->
+    <label for="description">Description</label>
+    <br>
+    <!--input type "textarea", br*2-->
+    <textarea id="description" rows="4" cols="40">
+    </textarea>
+    <br>
+    <br>
+    <!--subheader, label, br*1-->
+    <label for="video">Video</label>
+    <br>
+    <!--input type "file", br*2-->
+    <input id="video" type="file" placeholder="Choose File">
+    <br>
+    <br>
+    <!--collection,refer to movie genre prev ex., no label-->
+    <select id="collection">
+        <option value="choose" selected> Choose Collection</option>
+        <option value="coding">Coding</option>
+        <option value="funny">Funny</option>
+        <option value="keyboard">Keyboard</option>
+    </select>
+    <br>
+    <br>
+    <!--radio, public-->
+    <input name="visibility" id="public" type="radio">
+    <!--label, public-->
+    <label for="public">Public</label>
+    <!--radio, private-->
+    <input name="visibility" id="private"type="radio">
+    <!--label, private-->
+    <label for="private">Private</label>
+    <br>
+    <br>
+    <!--submit, text Upload Video-->
+    <input type="submit" value="Upload Video">
+    <!--footer-->
+    <footer>
+        <p>
+            Author: Rachel Collins
+            <a href="mailto:rachelmmcollins@gmailexercise.com">rachelmmcollins@gmail.com</a>
+        </p>
+        &copy: Copyright
+    </footer>
+    <!--/footer-->
+</body>
+</html>

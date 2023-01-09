@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <title>mytube1</title>
+</head>
+<body>
+    <!--div, header-->
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn" type="button">
+                    <img src="/images/navbaricon.png" alt="navbar icon" id="dropbtn">
+                </button>
+                <div class="dropdown-content">
+                    <a href="/">Home</a>
+                    <a href="/pages/collection1.html">Collection 1</a>
+                    <a href="/pages/collection2.html">Collection 2</a>
+                    <a href="/pages/collection3.html">Collection 3</a>
+                </div>
+            </div>  
+        </div>
+        <!--profile pic, div-->
+        <div class="profilepicture">
+            <img src="/images/profilepic.png" alt="blank profile pic" id="profilepic">
+        </div>
+        <!--/div, profile pic-->
+        <!--search bar, div-->
+        <div class="search">
+            <input id="search-bar" name="search" type="text" placeholder="Search...">
+        </div>
+        <!--/div, search bar-->
+        <!--upload new video, div-->
+        <div class="uploadbutton">
+            <a href="/newvideo.html" id="upload">Upload Video</a>
+        </div>
+        <!--/div, upload new video-->
+    <!--/header, div-->
+
+    <!--div, body-->
+    <!--table, 1*tr 3*th-->
+    <table>
+        <!--table row-->
+        <tr class="featured-videos">
+            <!--th-->
+            <!--subheader, collection, coding-->
+            <!--img tag or, embed video no full screen-->
+            <th style="justify-content: space-evenly;">
+                <iframe src="https://www.youtube.com/embed/videoseries?list=PLJgk5HK82IbjEV2yVnKvlmOsdYJN8vyK5" 
+                title="Keyboard Playlist vp" allow="accelerometer; autoplay;"></iframe>
+                <h2><a href="/pages/collection1.html">Keyboard Videos </a></h2>
+            </th>
+            <!--th-->
+            <!--subheader, collection2, funny-->
+            <!--img tag or, embed video no full screen-->
+            <th>
+                <iframe src="https://www.youtube.com/embed/videoseries?list=PLJgk5HK82IbhsRvtBXN8ZT2LHX8LtOedN" 
+                title="Coding Playlist vp"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                <h2><a href="/pages/collection2.html">Coding Videos </a></h2>
+            </th>
+            <!--th-->
+            <!--subheader, collection3, keyboard-->
+            <!--img tag or, embed video no full screen-->
+            <th>
+                <iframe src="https://www.youtube.com/embed/videoseries?list=PLJgk5HK82IbiClDg56BM15UKwPwL9A8PD" 
+                title="Funny Playlist vp" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                <h2><a href="/pages/collection3.html">Funny Videos </a></h2>
+            </th>
+        </tr>        
+            <!--/tr-->
+    </table>   
+    <!--/body div-->
+    <!--footer-->
+    <footer>
+            Author: Rachel Collins
+            <a href="mailto:rachelmmcollins@gmailexercise.com">rachelmmcollins@gmail.com</a>
+            <br>
+            <a href="https://www.flaticon.com/free-icons/hamburger" title="hamburger icons">Hamburger icons created by feen - Flaticon</a>
+            <br>
+            <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
+        &copy: Copyright
+    </footer>
+    <!--/footer-->
+</body>
+</html>
